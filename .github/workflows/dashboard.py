@@ -39,7 +39,7 @@ st.markdown("""
 @st.cache_data
 def load_authority_data():
     try:
-        df = pd.read_excel("final.xlsx")
+        df = pd.read_excel("/Users/aryadathankaryadth/PycharmProjects/port-inspection-dashboard/.github/workflows/final.xlsx")
         return df
     except Exception as e:
         st.error(f"Error loading authority data: {str(e)}")
@@ -49,7 +49,7 @@ def load_authority_data():
 @st.cache_data
 def load_ship_data():
     try:
-        ship_df = pd.read_excel("ship data.xlsx")
+        ship_df = pd.read_excel("/Users/aryadathankaryadth/PycharmProjects/port-inspection-dashboard/.github/workflows/ship data.xlsx")
         return ship_df
     except Exception as e:
         st.error(f"Error loading ship data: {str(e)}")
