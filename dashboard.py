@@ -12,7 +12,7 @@ nltk.download("punkt")
 nltk.download("stopwords")
 nltk.download('punkt_tab')  # Add this line
 
-# ✅ Configure page settings – MUST be first Streamlit command
+# ✅ Configure page settings – MUST Be first Streamlit command
 st.set_page_config(
     page_title="Port Authority Inspection Analysis",
     page_icon="🚢",
